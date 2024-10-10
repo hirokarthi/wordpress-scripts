@@ -1,0 +1,11 @@
+.accordion-cont {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, padding 0.3s ease-out;
+  padding: 0 10px;
+}
+
+.accordion-cont.open {
+  max-height: 200px; /* Adjust this to fit your content */
+  padding: 10px;
+}
