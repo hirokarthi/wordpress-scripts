@@ -1,0 +1,8 @@
+/* Accordion Title & Icon Align */
+
+.e-n-accordion-item-title{
+	display:flex;
+	justify-content:space-between !important; 
+	border-bottom: 1px solid #EAECF0 !important;
+  padding-bottom: 30px !important;
+}
